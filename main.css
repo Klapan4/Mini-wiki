@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    background-color: #0d1117;
+    color: aliceblue;
+}
+
+/* Шапка Страницы */
+header{
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Общие параметры всей шапки */
+.top-bar{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1700px;
+    margin: 0 auto
+}
+/*  */
+
+/* Список ссылок в шапке, их расположение в шапке */
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 500px;
+}
+nav li{
+    margin-right: 30px;
+}
+/*  */
+
+/* лого картинка */
+.top-bar img{
+    height: 100px;
+    width:  250px;
+    margin-left: 0;
+}
+/*  */
+
+/* Стилизация ссылок в шапке и их состояния при взаимодействии с ними */
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.nm{
+    color: darkslategrey;
+}
+
+.main{
+    background-color: darkcyan;
+    border-radius: 26%;
+    color: wheat;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+/*  */
+/* Конец шапки */
+
+main{
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 10px;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
