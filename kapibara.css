@@ -1,0 +1,17 @@
+.kap{
+    height: 200px;
+    width: 300px;
+    float: right;
+    display: block;
+}
+body p{
+    font-size: 20px;
+}
+
+.kap2{
+    height: 230px;
+    width: 300px;
+    margin-top: 300px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
